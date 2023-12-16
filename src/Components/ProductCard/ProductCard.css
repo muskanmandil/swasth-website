@@ -1,0 +1,26 @@
+.product-card {
+    width: 350px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-card h2{
+   font-size: 20px;
+   background-color: #fdfd97;
+   padding: 2px 8px;
+   margin-bottom: 10px;
+}
+
+.product-card-price{
+    display: flex;
+    gap: 20px;
+    color: #86c325;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.product-card:hover{
+    transform: scale(1.05);
+    transition: 0.6s;
+}

@@ -1,0 +1,29 @@
+.categories {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    height: 90vh;
+    padding: 50px;
+}
+
+.categories h1{
+    color:#2a6f84;
+    font-size:50px;
+    font-weight: 600;
+}
+
+.categories hr{
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background: #252525;
+}
+
+.categories-item {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}

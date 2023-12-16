@@ -1,0 +1,16 @@
+.companystory{
+    padding: 100px 80px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.companystory h2{
+    font-size: 36px;
+    color: #2A6F84;
+    font-weight: 700;
+}
+
+.companystory p {
+    font-size: 18px;
+    line-height: 2;
+}

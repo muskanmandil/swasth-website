@@ -1,0 +1,21 @@
+.company-principles{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px 80px 100px;
+}
+
+.company-principles h2 {
+    font-weight: 700;
+    background-color: #2A6F84;
+    color: white;
+    width: fit-content;
+    padding: 6px;
+}
+
+.company-principles ul li {
+    color: #2A6F84;
+    font-weight: 600;
+    line-height: 2.5;
+    font-size: 18px;
+}

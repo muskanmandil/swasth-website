@@ -1,0 +1,23 @@
+.category-card {
+  width: 350px;
+  height: 200px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.category-card p {
+  color: #171717;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.category-card:hover {
+  transform: scale(1.05);
+  transition: 0.6s;
+}
+
+.category-card p:hover {
+  font-size: 22px;
+}
